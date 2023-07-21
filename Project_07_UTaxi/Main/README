@@ -1,0 +1,6 @@
+The project is to design a web application like Snapp or Uber which clients can request for trip and the drivers can accpet those trips. OOP and inheritence are used for implementing this project. The web back-end is implemented using c++ and we used basic html to impelement the front-end. \n To start using this program, first change do this steps:
+1.go to Main folder
+2.make the exe file using make command
+3.run this command: ./utaxi.out locations.csv
+4.go to web browser and connect to localhost:8080
+5.Ready to use the web application
