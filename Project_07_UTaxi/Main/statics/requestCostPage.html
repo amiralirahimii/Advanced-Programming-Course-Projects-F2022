@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <title>Request</title>
+    <body>
+        <form action="/requestCost" method="post">
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username">
+            </p>
+            <p>
+                <label for="origin">Origin:</label>
+                <input type="text" name="origin" id="origin">
+            </p>
+            <p>
+                <label for="destination">Destination:</label>
+                <input type="text" name="destination" id="destination">
+            </p>
+            <p>
+                Is Request In Hurry?<br>
+                <input type="radio" id="yes" name="in_hurry" value="yes">
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="in_hurry" value="no">
+                <label for="no">No</label>
+            </p>
+            <br>
+
+            <input type="radio" id="get_cost" name="request" value="get_cost">
+            <label for="get_cost">Calculate Cost</label>
+
+            <input type="radio" id="req_trip" name="request" value="req_trip">
+            <label for="req_trip">Request Trip</label>
+
+            <p>
+                <input type="submit" formtarget="_self" value="submit">
+            </p>
+        </form>
+        <p>
+            <a href="/passengerPage">
+                <input type="button"  value="Back">
+            </a>
+        </p>
+    </body>
+</html>

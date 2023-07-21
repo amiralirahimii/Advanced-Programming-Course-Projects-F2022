@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <title>Get Trips</title>
+    <body>
+        
+        <form action="/getTrips" method="post">
+            <p>
+                Username:
+                <input type="text" name="username">
+            </p>
+            <p>
+                Sort By:
+                <input type="radio" name="sort_by_cost" value="true" id="true">
+                <label for="true">Cost</label>
+                <input type="radio" name="sort_by_cost" value="false" id="false">
+                <label for="false">ID</label>
+            </p>
+            <p>
+                <input type="submit" formtarget="_self" value="submit">
+            </p>
+        </form>
+        <p>
+            <a href="/driverPage">
+                <input type="button"  value="Back">
+            </a>
+        </p>
+    </body>
+</html>
