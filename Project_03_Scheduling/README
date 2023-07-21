@@ -1,0 +1,1 @@
+The project is about assigning translators to events. We are given some translators and some events which every translator knows some languages and have some free time and every event have a starting and finishing time. we have to schedule translator's time and tell them when they should go to which event. We've used greedy approach to solve this problem.
