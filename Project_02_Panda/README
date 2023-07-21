@@ -1,0 +1,1 @@
+The project is to findout if the panda can make his way through the given map. he can only pass from empty cells, and can not pass through walls, walls are shown with '#' and passable paths are shown with ' '. We used backtracking to solve this problem.
